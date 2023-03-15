@@ -13,16 +13,19 @@ This repository contains code to read and visualize point cloud and raster topog
 
 There are two ways to obtain the data: 
 
-1) Topography data files in the data folder (processed via OpenTopography):
+1) Download the topography data files (pre-processed via OpenTopography):
 
-Point cloud data in las format (for point_cloud_lasdata.m): https://object.cloud.sdsc.edu/v1/AUTH_opentopography/www/education/MatlabTopo/Utah_state_capitol.las
+- Point cloud data in las format (for point_cloud_lasdata.m):
+https://object.cloud.sdsc.edu/v1/AUTH_opentopography/www/education/MatlabTopo/Utah_state_capitol.las
 
-Point cloud data in laz format (for point_cloud_matlab.m): https://object.cloud.sdsc.edu/v1/AUTH_opentopography/www/education/MatlabTopo/Utah_state_capitol.laz
+- Point cloud data in laz format (for point_cloud_matlab.m):
+https://object.cloud.sdsc.edu/v1/AUTH_opentopography/www/education/MatlabTopo/Utah_state_capitol.laz
 
-Geotif (for read_visualize_raster.m) : https://object.cloud.sdsc.edu/v1/AUTH_opentopography/www/education/MatlabTopo/Utah_grabens.tif
+- Geotif (for read_visualize_raster.m):
+https://object.cloud.sdsc.edu/v1/AUTH_opentopography/www/education/MatlabTopo/Utah_grabens.tif
 
 2) Generate and download the point cloud (.las or .laz files) or DEM (.tif files) data via the OpenTopography portal on demand. Note that in the Matlab scripts, the topography data files from OpenTopography are renamed with local significance. 
 
-Salt Lake City(https://doi.org/10.5069/G9TH8JNQ): https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.122014.26912.1&minX=-111.88989256858865&minY=40.77602500627361&maxX=-111.88666950298132&maxY=40.77977572159702
+- Salt Lake City(https://doi.org/10.5069/G9TH8JNQ): https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.122014.26912.1&minX=-111.88989256858865&minY=40.77602500627361&maxX=-111.88666950298132&maxY=40.77977572159702
 
-Canyonlands National Park: (https://doi.org/10.5069/G9X34VNQ): https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.072020.6341.1&minX=-109.92892645717178&minY=38.10798288429967&maxX=-109.90619966646437&maxY=38.12079524373647
+- Canyonlands National Park: (https://doi.org/10.5069/G9X34VNQ): https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.072020.6341.1&minX=-109.92892645717178&minY=38.10798288429967&maxX=-109.90619966646437&maxY=38.12079524373647
