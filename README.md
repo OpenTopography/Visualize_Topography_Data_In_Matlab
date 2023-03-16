@@ -9,7 +9,7 @@ This repository contains code to read and visualize point cloud and raster topog
 
 - point_cloud_matlab.m: Use this script with Matlab's Lidar Toolbox (https://www.mathworks.com/products/lidar.html) to load and visualize lidar point cloud by attribute, for example RBG color (when available) and classification. 
 
-- read_visualize_raster.m: Use this script to read in raster datasets such as digital elevation models, make hillshades (requires Mathwork's file exchange: https://www.mathworks.com/matlabcentral/fileexchange/14863-hillshade), and make gradient maps (requires Mathwork's file exchange: https://www.mathworks.com/matlabcentral/fileexchange/18655-gradient8?s_tid=srchtitle). 
+- read_visualize_raster.m: Use this script to load in and visualize raster datasets such as digital elevation models. Also, use this script to make hillshades (requires Mathwork's file exchange: https://www.mathworks.com/matlabcentral/fileexchange/14863-hillshade) and to make gradient maps (requires Mathwork's file exchange: https://www.mathworks.com/matlabcentral/fileexchange/18655-gradient8?s_tid=srchtitle). 
 
 There are two ways to obtain the data: 
 
