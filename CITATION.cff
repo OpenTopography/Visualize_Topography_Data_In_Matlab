@@ -6,6 +6,5 @@ authors:
   orcid: "https://orcid.org/0000-0002-3884-4693"
 title: "Read and visualize point cloud and raster topography data using Matlab"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
 date-released: 2023-03-15
 url: "https://github.com/OpenTopography/Visualize_Topography_Data_In_Matlab"
